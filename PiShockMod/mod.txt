@@ -1,0 +1,12 @@
+{
+    "name": "Pishock On Damage",
+    "description": "Shocks you when you take Damage",
+    "author": "Miks",
+    "version": "0.1",
+    "hooks": [
+        {
+            "hook_id": "lib/units/beings/player/playerdamage",
+            "script_path": "damage_trigger.lua"
+        }
+    ]
+}
